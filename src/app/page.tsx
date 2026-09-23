@@ -69,10 +69,12 @@ export default async function HomePage() {
               alt="Haute Couture Collection"
               fill
               priority
-              className="object-cover object-center opacity-30 mix-blend-luminosity scale-105"
+              unoptimized
+              className="object-cover object-center opacity-45 scale-105 transition-all duration-700"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#0A0E14] via-[#0A0E14]/85 to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0A0E14] via-transparent to-[#0A0E14]/50" />
+            {/* Elegant Luxury Gradients - ensures background fashion photo is clearly visible */}
+            <div className="absolute inset-0 bg-gradient-to-r from-[#0A0E14]/95 via-[#0A0E14]/60 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0A0E14]/80 via-transparent to-[#0A0E14]/40" />
           </div>
 
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
