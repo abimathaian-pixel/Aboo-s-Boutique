@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#F3E5AB" />
+      <stop offset="100%" stop-color="#AA771C" />
+    </linearGradient>
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A1A" />
+      <stop offset="100%" stop-color="#0A0A0A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Monogram Crest -->
+  <g transform="translate(15, 10)">
+    <!-- Hexagonal Diamond Frame -->
+    <polygon points="50,5 92,30 92,75 50,100 8,75 8,30" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-dasharray="200" stroke-dashoffset="0"/>
+    <polygon points="50,12 85,33 85,72 50,93 15,72 15,33" fill="#111111" opacity="0.95"/>
+    <circle cx="50" cy="52" r="32" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.6"/>
+    
+    <!-- Stylized Monogram Letters AB -->
+    <text x="50" y="63" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="700" fill="url(#goldGrad)" text-anchor="middle" letter-spacing="2">AB</text>
+    
+    <!-- Small star accent -->
+    <polygon points="50,22 52,27 57,28 53,32 54,37 50,34 46,37 47,32 43,28 48,27" fill="url(#goldGrad)"/>
+    <polygon points="50,70 51.5,74 55,75 52,78 53,82 50,80 47,82 48,78 45,75 48.5,74" fill="url(#goldGrad)"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(130, 25)">
+    <!-- Main Brand Name -->
+    <text x="0" y="42" font-family="'Playfair Display', 'Cinzel', Georgia, serif" font-size="36" font-weight="700" fill="#111111" letter-spacing="3">
+      Aboo's<tspan fill="#C5A880">Boutique</tspan>
+    </text>
+    
+    <!-- Divider Line -->
+    <line x1="0" y1="56" x2="330" y2="56" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.8"/>
+    
+    <!-- Subtitle / Tagline -->
+    <text x="0" y="74" font-family="'Inter', sans-serif" font-size="11" font-weight="500" fill="#666666" letter-spacing="7">
+      CURATED LUXURY APPAREL
+    </text>
+  </g>
+</svg>
